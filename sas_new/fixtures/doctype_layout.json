@@ -3582,16 +3582,9 @@
     "parent": "Sales Invoice",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "update_billed_amount_in_delivery_note",
-    "label": "Update Billed Amount in Delivery Note",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
    }
   ],
-  "modified": "2023-11-12 10:07:25.390796",
+  "modified": "2023-11-12 12:36:55.906056",
   "name": "Sales Invoice",
   "route": "sales_invoice"
  },
