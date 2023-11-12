@@ -1,0 +1,5972 @@
+[
+ {
+  "client_script": null,
+  "docstatus": 0,
+  "doctype": "DocType Layout",
+  "document_type": "Quotation",
+  "fields": [
+   {
+    "fieldname": "customer_section",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "title",
+    "label": "Title",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "quotation_to",
+    "label": "Quotation To",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "party_name",
+    "label": "Party",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer_name",
+    "label": "Customer Name",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_7",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "transaction_date",
+    "label": "Date",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break1",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "valid_till",
+    "label": "Valid Till",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company",
+    "label": "Company",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "amended_from",
+    "label": "Amended From",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "items_section",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "items",
+    "label": "Items",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sec_break23",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_qty",
+    "label": "Total Quantity",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_net_weight",
+    "label": "Total Net Weight",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_28",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_total",
+    "label": "Total (Company Currency)",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_net_total",
+    "label": "Net Total (Company Currency)",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_31",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total",
+    "label": "Total",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "discount_amount",
+    "label": "Additional Discount Amount",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "grand_total",
+    "label": "Grand Total",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "address_and_contact_tab",
+    "label": "Address & Contact",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "billing_address_section",
+    "label": "Billing Address",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer_address",
+    "label": "Customer Address",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "address_display",
+    "label": "Address",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "col_break98",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_person",
+    "label": "Contact Person",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_display",
+    "label": "Contact",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_mobile",
+    "label": "Mobile No",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_email",
+    "label": "Contact Email",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_address_section",
+    "label": "Shipping Address",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_address_name",
+    "label": "Shipping Address",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_81",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_address",
+    "label": "Shipping Address",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company_address_section",
+    "label": "Company Address",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company_address",
+    "label": "Company Address Name",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_87",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company_address_display",
+    "label": "Company Address",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "terms_tab",
+    "label": "Terms",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "payment_schedule_section",
+    "label": "Payment Terms",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "payment_terms_template",
+    "label": "Payment Terms Template",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "payment_schedule",
+    "label": "Payment Schedule",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "terms_section_break",
+    "label": "Terms and Conditions",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tc_name",
+    "label": "Terms",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "terms",
+    "label": "Term Details",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "more_info_tab",
+    "label": "More Info",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "subscription_section",
+    "label": "Auto Repeat",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "auto_repeat",
+    "label": "Auto Repeat",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "update_auto_repeat_reference",
+    "label": "Update Auto Repeat Reference",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "print_settings",
+    "label": "Print Settings",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "letter_head",
+    "label": "Letter Head",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "group_same_items",
+    "label": "Group same items",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_73",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "select_print_heading",
+    "label": "Print Heading",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "language",
+    "label": "Print Language",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "lost_reasons_section",
+    "label": "Lost Reasons",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "lost_reasons",
+    "label": "Lost Reasons",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "competitors",
+    "label": "Competitors",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_117",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "order_lost_reason",
+    "label": "Detailed Reason",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "currency_and_price_list",
+    "label": "Currency and Price List",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "currency",
+    "label": "Currency",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "conversion_rate",
+    "label": "Exchange Rate",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break2",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "selling_price_list",
+    "label": "Price List",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "price_list_currency",
+    "label": "Price List Currency",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "plc_conversion_rate",
+    "label": "Price List Exchange Rate",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "ignore_pricing_rule",
+    "label": "Ignore Pricing Rule",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes_section",
+    "label": "Taxes and Charges",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tax_category",
+    "label": "Tax Category",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes_and_charges",
+    "label": "Sales Taxes and Charges Template",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_36",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_rule",
+    "label": "Shipping Rule",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_34",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "incoterm",
+    "label": "Incoterm",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "named_place",
+    "label": "Named Place",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_36",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes",
+    "label": "Sales Taxes and Charges",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_39",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_total_taxes_and_charges",
+    "label": "Total Taxes and Charges (Company Currency)",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_42",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_taxes_and_charges",
+    "label": "Total Taxes and Charges",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "totals",
+    "label": "Totals",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "net_total",
+    "label": "Net Total",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_grand_total",
+    "label": "Grand Total (Company Currency)",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_rounding_adjustment",
+    "label": "Rounding Adjustment (Company Currency)",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_rounded_total",
+    "label": "Rounded Total (Company Currency)",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_in_words",
+    "label": "In Words (Company Currency)",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break3",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "rounding_adjustment",
+    "label": "Rounding Adjustment",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "rounded_total",
+    "label": "Rounded Total",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "in_words",
+    "label": "In Words",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_44",
+    "label": "Additional Discount",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "apply_discount_on",
+    "label": "Apply Additional Discount On",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_discount_amount",
+    "label": "Additional Discount Amount (Company Currency)",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "coupon_code",
+    "label": "Coupon Code",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_46",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "additional_discount_percentage",
+    "label": "Additional Discount Percentage",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "referral_sales_partner",
+    "label": "Referral Sales Partner",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sec_tax_breakup",
+    "label": "Tax Breakup",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "other_charges_calculation",
+    "label": "Taxes and Charges Calculation",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "bundle_items_section",
+    "label": "Bundle Items",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "packed_items",
+    "label": "Bundle Items",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "pricing_rule_details",
+    "label": "Pricing Rules",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "pricing_rules",
+    "label": "Pricing Rule Detail",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "additional_info_section",
+    "label": "Additional Info",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "status",
+    "label": "Status",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer_group",
+    "label": "Customer Group",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "territory",
+    "label": "Territory",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "naming_series",
+    "label": "Series",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "order_type",
+    "label": "Order Type",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_108",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "campaign",
+    "label": "Campaign",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "source",
+    "label": "Source",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "scan_barcode",
+    "label": "Scan Barcode",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break4",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "opportunity",
+    "label": "Opportunity",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "supplier_quotation",
+    "label": "Supplier Quotation",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "enq_det",
+    "label": "Opportunity Item",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "connections_tab",
+    "label": "Connections",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   }
+  ],
+  "modified": "2023-09-26 17:43:02.470847",
+  "name": "Quotation",
+  "route": "quotation"
+ },
+ {
+  "client_script": null,
+  "docstatus": 0,
+  "doctype": "DocType Layout",
+  "document_type": "Delivery Note",
+  "fields": [
+   {
+    "fieldname": "title",
+    "label": "Title",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer",
+    "label": "Customer",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "block",
+    "label": "BLOCK",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "is_return",
+    "label": "Is Return",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tax_id",
+    "label": "Tax Id",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer_name",
+    "label": "Customer Name",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break1",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posting_date",
+    "label": "Date",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "street",
+    "label": "STREET",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_10",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company",
+    "label": "Company",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "amended_from",
+    "label": "Amended From",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "custom_lpo_and_reference_no",
+    "label": "LPO AND REFERENCE NO",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "home",
+    "label": "HOME",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "issue_credit_note",
+    "label": "Issue Credit Note",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "return_against",
+    "label": "Return Against Delivery Note",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "custom_dimensions_section",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "items_section",
+    "label": "Items",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "pick_list",
+    "label": "Pick List",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "col_break_warehouse",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "set_warehouse",
+    "label": "Set Source Warehouse",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "set_target_warehouse",
+    "label": "Set Target Warehouse",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_30",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "items",
+    "label": "Delivery Note Item",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_31",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "custom_item_image",
+    "label": "Item Image",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "custom_image_view",
+    "label": "Image View",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_qty",
+    "label": "Total Quantity",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_net_weight",
+    "label": "Total Net Weight",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_35",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_total",
+    "label": "Total (Company Currency)",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_net_total",
+    "label": "Net Total (Company Currency)",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_33",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total",
+    "label": "Total",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "discount_amount",
+    "label": "Additional Discount Amount",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "grand_total",
+    "label": "Grand Total",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_44",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sec_tax_breakup",
+    "label": "Tax Breakup",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "other_charges_calculation",
+    "label": "Taxes and Charges Calculation",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "packing_list",
+    "label": "Packing List",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "packed_items",
+    "label": "Packed Items",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "product_bundle_help",
+    "label": "Product Bundle Help",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "pricing_rule_details",
+    "label": "Pricing Rules",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "pricing_rules",
+    "label": "Pricing Rule Detail",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "address_and_contact_tab",
+    "label": "Address & Contact",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_info",
+    "label": "Billing Address",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer_address",
+    "label": "Billing Address Name",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "address_display",
+    "label": "Billing Address",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "col_break21",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_person",
+    "label": "Contact Person",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_display",
+    "label": "Contact",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_mobile",
+    "label": "Mobile No",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_email",
+    "label": "Contact Email",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_address_section",
+    "label": "Shipping Address",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_address_name",
+    "label": "Shipping Address",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_address",
+    "label": "Shipping Address",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_95",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "dispatch_address_name",
+    "label": "Dispatch Address Name",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "dispatch_address",
+    "label": "Dispatch Address",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company_address_section",
+    "label": "Company Address",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company_address",
+    "label": "Company Address Name",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_101",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company_address_display",
+    "label": "Company Address",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "terms_tab",
+    "label": "Terms",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tc_name",
+    "label": "Terms",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "terms",
+    "label": "Terms and Conditions Details",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "more_info_tab",
+    "label": "More Info",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_83",
+    "label": "Status",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "per_billed",
+    "label": "% Amount Billed",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "status",
+    "label": "Status",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_112",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "per_installed",
+    "label": "% Installed",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "installation_status",
+    "label": "Installation Status",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_89",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "per_returned",
+    "label": "% Returned",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "transporter_info",
+    "label": "Transporter Info",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "transporter",
+    "label": "Transporter",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "driver",
+    "label": "Driver",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "lr_no",
+    "label": "Transport Receipt No",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "vehicle_no",
+    "label": "Vehicle No",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "col_break34",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "transporter_name",
+    "label": "Transporter Name",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "driver_name",
+    "label": "Driver Name",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "lr_date",
+    "label": "Transport Receipt Date",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer_po_details",
+    "label": "Customer PO Details",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "po_no",
+    "label": "Customer's Purchase Order No",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_17",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "po_date",
+    "label": "Customer's Purchase Order Date",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sales_team_section_break",
+    "label": "Commission",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sales_partner",
+    "label": "Sales Partner",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "amount_eligible_for_commission",
+    "label": "Amount Eligible for Commission",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break7",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "commission_rate",
+    "label": "Commission Rate (%)",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_commission",
+    "label": "Total Commission",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break1",
+    "label": "Sales Team",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sales_team",
+    "label": "Sales Team",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "subscription_section",
+    "label": "Subscription Section",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "auto_repeat",
+    "label": "Auto Repeat",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "printing_details",
+    "label": "Print Settings",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "letter_head",
+    "label": "Letter Head",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "print_without_amount",
+    "label": "Print Without Amount",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "group_same_items",
+    "label": "Group same items",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_88",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "select_print_heading",
+    "label": "Print Heading",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "language",
+    "label": "Print Language",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "totals",
+    "label": "Totals",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "net_total",
+    "label": "Net Total",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_grand_total",
+    "label": "Grand Total (Company Currency)",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_rounding_adjustment",
+    "label": "Rounding Adjustment (Company Currency)",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_rounded_total",
+    "label": "Rounded Total (Company Currency)",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_in_words",
+    "label": "In Words (Company Currency)",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break3",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "rounding_adjustment",
+    "label": "Rounding Adjustment",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "rounded_total",
+    "label": "Rounded Total",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "in_words",
+    "label": "In Words",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "disable_rounded_total",
+    "label": "Disable Rounded Total",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_49",
+    "label": "Additional Discount",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "apply_discount_on",
+    "label": "Apply Additional Discount On",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_51",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_discount_amount",
+    "label": "Additional Discount Amount (Company Currency)",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "additional_discount_percentage",
+    "label": "Additional Discount Percentage",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "more_info",
+    "label": "Additional Info",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "is_internal_customer",
+    "label": "Is Internal Customer",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "represents_company",
+    "label": "Represents Company",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "inter_company_reference",
+    "label": "Inter Company Reference",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer_group",
+    "label": "Customer Group",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "territory",
+    "label": "Territory",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "source",
+    "label": "Source",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "campaign",
+    "label": "Campaign",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "naming_series",
+    "label": "Series",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "dimension_col_break",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "scan_barcode",
+    "label": "Scan Barcode",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posting_time",
+    "label": "Posting Time",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "set_posting_time",
+    "label": "Edit Posting Date and Time",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "currency_and_price_list",
+    "label": "Currency and Price List",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "currency",
+    "label": "Currency",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "conversion_rate",
+    "label": "Exchange Rate",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "col_break23",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "selling_price_list",
+    "label": "Price List",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "price_list_currency",
+    "label": "Price List Currency",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "plc_conversion_rate",
+    "label": "Price List Exchange Rate",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "ignore_pricing_rule",
+    "label": "Ignore Pricing Rule",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "accounting_dimensions_section",
+    "label": "Accounting Dimensions",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "cost_center",
+    "label": "Cost Center",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_18",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "project",
+    "label": "Project",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break5",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "excise_page",
+    "label": "Excise Page Number",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "instructions",
+    "label": "Instructions",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes_section",
+    "label": "Taxes and Charges",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tax_category",
+    "label": "Tax Category",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes_and_charges",
+    "label": "Sales Taxes and Charges Template",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_43",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_rule",
+    "label": "Shipping Rule",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_39",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "incoterm",
+    "label": "Incoterm",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "named_place",
+    "label": "Named Place",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_41",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes",
+    "label": "Sales Taxes and Charges",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "lpo_and_reference_no",
+    "label": "LPO AND REFERENCE NO",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_total_taxes_and_charges",
+    "label": "Total Taxes and Charges (Company Currency)",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_47",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_taxes_and_charges",
+    "label": "Total Taxes and Charges",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "connections_tab",
+    "label": "Connections",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   }
+  ],
+  "modified": "2023-11-12 10:09:01.313104",
+  "name": "Delivery Note",
+  "route": "delivery_note"
+ },
+ {
+  "client_script": null,
+  "docstatus": 0,
+  "doctype": "DocType Layout",
+  "document_type": "Sales Invoice",
+  "fields": [
+   {
+    "fieldname": "customer_section",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "title",
+    "label": "Title",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer",
+    "label": "Customer",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer_name",
+    "label": "Customer Name",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "due_date",
+    "label": "Payment Due Date",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "block",
+    "label": "BLOCK",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tax_id",
+    "label": "Tax Id",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company",
+    "label": "Company",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company_tax_id",
+    "label": "Company Tax ID",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break1",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posting_date",
+    "label": "Date",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "street",
+    "label": "STREET",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "is_return",
+    "label": "Is Return (Credit Note)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_14",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "custom_lpo_and_reference_no",
+    "label": "LPO AND REFERENCE NO",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "home",
+    "label": "HOME",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posa_pos_opening_shift",
+    "label": "POS Shift",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "is_pos",
+    "label": "Include Payment (POS)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "pos_profile",
+    "label": "POS Profile",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posting_time",
+    "label": "Posting Time",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "is_consolidated",
+    "label": "Is Consolidated",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "return_against",
+    "label": "Return Against",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "update_billed_amount_in_sales_order",
+    "label": "Update Billed Amount in Sales Order",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "amended_from",
+    "label": "Amended From",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "items_section",
+    "label": "Items",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "update_stock",
+    "label": "Update Stock",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_39",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "set_warehouse",
+    "label": "Source Warehouse",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "set_target_warehouse",
+    "label": "Set Target Warehouse",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_42",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "items",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_30",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "custom_item_image",
+    "label": "Item Image",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "custom_image_view",
+    "label": "Image View",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_qty",
+    "label": "Total Quantity",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_net_weight",
+    "label": "Total Net Weight",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_32",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_total",
+    "label": "Total (Company Currency)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_net_total",
+    "label": "Net Total (Company Currency)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_52",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total",
+    "label": "Total",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "discount_amount",
+    "label": "Additional Discount Amount",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "grand_total",
+    "label": "Grand Total",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_104",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_billing_hours",
+    "label": "Total Billing Hours",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_106",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_billing_amount",
+    "label": "Total Billing Amount",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "payments_tab",
+    "label": "Payments",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "payments_section",
+    "label": "Payments",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "cash_bank_account",
+    "label": "Cash/Bank Account",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "payments",
+    "label": "Sales Invoice Payment",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_84",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_paid_amount",
+    "label": "Paid Amount (Company Currency)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_86",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "paid_amount",
+    "label": "Paid Amount",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_88",
+    "label": "Changes",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_change_amount",
+    "label": "Base Change Amount (Company Currency)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_90",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "change_amount",
+    "label": "Change Amount",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "account_for_change_amount",
+    "label": "Account for Change Amount",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "advances_section",
+    "label": "Advance Payments",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "allocate_advances_automatically",
+    "label": "Allocate Advances Automatically (FIFO)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "only_include_allocated_payments",
+    "label": "Only Include Allocated Payments",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "get_advances",
+    "label": "Get Advances Received",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "advances",
+    "label": "Advances",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "write_off_section",
+    "label": "Write Off",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "write_off_amount",
+    "label": "Write Off Amount",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_write_off_amount",
+    "label": "Write Off Amount (Company Currency)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "write_off_outstanding_amount_automatically",
+    "label": "Write Off Outstanding Amount",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_74",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "write_off_account",
+    "label": "Write Off Account",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "write_off_cost_center",
+    "label": "Write Off Cost Center",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "loyalty_points_redemption",
+    "label": "Loyalty Points Redemption",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "redeem_loyalty_points",
+    "label": "Redeem Loyalty Points",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "loyalty_points",
+    "label": "Loyalty Points",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "loyalty_amount",
+    "label": "Loyalty Amount",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_77",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "loyalty_program",
+    "label": "Loyalty Program",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "loyalty_redemption_account",
+    "label": "Redemption Account",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "loyalty_redemption_cost_center",
+    "label": "Redemption Cost Center",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_and_address_tab",
+    "label": "Contact & Address",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "address_and_contact",
+    "label": "Billing Address",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer_address",
+    "label": "Customer Address",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "address_display",
+    "label": "Address",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "col_break4",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_person",
+    "label": "Contact Person",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_display",
+    "label": "Contact",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_mobile",
+    "label": "Mobile No",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_email",
+    "label": "Contact Email",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "territory",
+    "label": "Territory",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_address_section",
+    "label": "Shipping Address",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_address_name",
+    "label": "Shipping Address Name",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_address",
+    "label": "Shipping Address",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_addr_col_break",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "dispatch_address_name",
+    "label": "Dispatch Address Name",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "dispatch_address",
+    "label": "Dispatch Address",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company_address_section",
+    "label": "Company Address",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company_address",
+    "label": "Company Address Name",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company_addr_col_break",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company_address_display",
+    "label": "Company Address",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "terms_tab",
+    "label": "Terms",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "payment_schedule_section",
+    "label": "Payment Terms",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "ignore_default_payment_terms_template",
+    "label": "Ignore Default Payment Terms Template",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "payment_terms_template",
+    "label": "Payment Terms Template",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "payment_schedule",
+    "label": "Payment Schedule",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "terms_section_break",
+    "label": "Terms and Conditions",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tc_name",
+    "label": "Terms",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "terms",
+    "label": "Terms and Conditions Details",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "more_info_tab",
+    "label": "More Info",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer_po_details",
+    "label": "Customer PO Details",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "po_no",
+    "label": "Customer's Purchase Order",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_23",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "po_date",
+    "label": "Customer's Purchase Order Date",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "more_info",
+    "label": "Accounting Details",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "debit_to",
+    "label": "Debit To",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "party_account_currency",
+    "label": "Party Account Currency",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posa_additional_notes_section",
+    "label": "Additional Notes",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "is_opening",
+    "label": "Is Opening Entry",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break8",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "unrealized_profit_loss_account",
+    "label": "Unrealized Profit / Loss Account",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "against_income_account",
+    "label": "Against Income Account",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sales_team_section_break",
+    "label": "Commission",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sales_partner",
+    "label": "Sales Partner",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "amount_eligible_for_commission",
+    "label": "Amount Eligible for Commission",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break10",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "commission_rate",
+    "label": "Commission Rate (%)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_commission",
+    "label": "Total Commission",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break2",
+    "label": "Sales Team",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sales_team",
+    "label": "Sales Contributions and Incentives",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "edit_printing_settings",
+    "label": "Print Settings",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "letter_head",
+    "label": "Letter Head",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "group_same_items",
+    "label": "Group same items",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_84",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "select_print_heading",
+    "label": "Print Heading",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "language",
+    "label": "Print Language",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "totals",
+    "label": "Totals",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "net_total",
+    "label": "Net Total",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_grand_total",
+    "label": "Grand Total (Company Currency)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_rounding_adjustment",
+    "label": "Rounding Adjustment (Company Currency)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_rounded_total",
+    "label": "Rounded Total (Company Currency)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_in_words",
+    "label": "In Words (Company Currency)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break5",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "rounding_adjustment",
+    "label": "Rounding Adjustment",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "use_company_roundoff_cost_center",
+    "label": "Use Company default Cost Center for Round off",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "rounded_total",
+    "label": "Rounded Total",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "in_words",
+    "label": "In Words",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_advance",
+    "label": "Total Advance",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "outstanding_amount",
+    "label": "Outstanding Amount",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "disable_rounded_total",
+    "label": "Disable Rounded Total",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_49",
+    "label": "Additional Discount",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "apply_discount_on",
+    "label": "Apply Additional Discount On",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_discount_amount",
+    "label": "Additional Discount Amount (Company Currency)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "is_cash_or_non_trade_discount",
+    "label": "Is Cash or Non Trade Discount",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "additional_discount_account",
+    "label": "Discount Account",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_51",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "additional_discount_percentage",
+    "label": "Additional Discount Percentage",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sec_tax_breakup",
+    "label": "Tax Breakup",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "other_charges_calculation",
+    "label": "Taxes and Charges Calculation",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "pricing_rule_details",
+    "label": "Pricing Rules",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posa_offers",
+    "label": "POS Offers Detail",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "pricing_rules",
+    "label": "Pricing Rule Detail",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "packing_list",
+    "label": "Packing List",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "packed_items",
+    "label": "Packed Items",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "product_bundle_help",
+    "label": "Product Bundle Help",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "time_sheet_list",
+    "label": "Time Sheet List",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "timesheets",
+    "label": "Time Sheets",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "accounting_dimensions_section",
+    "label": "Accounting Dimensions",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "cost_center",
+    "label": "Cost Center",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "dimension_col_break",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "project",
+    "label": "Project",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "currency_and_price_list",
+    "label": "Currency and Price List",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "currency",
+    "label": "Currency",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "conversion_rate",
+    "label": "Exchange Rate",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break2",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "selling_price_list",
+    "label": "Price List",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "price_list_currency",
+    "label": "Price List Currency",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "plc_conversion_rate",
+    "label": "Price List Exchange Rate",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "ignore_pricing_rule",
+    "label": "Ignore Pricing Rule",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "subscription_section",
+    "label": "Subscription",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posa_delivery_charges",
+    "label": "Delivery Charges",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes_section",
+    "label": "Taxes and Charges",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tax_category",
+    "label": "Tax Category",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes_and_charges",
+    "label": "Sales Taxes and Charges Template",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_38",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_rule",
+    "label": "Shipping Rule",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_55",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "incoterm",
+    "label": "Incoterm",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "named_place",
+    "label": "Named Place",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_40",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes",
+    "label": "Sales Taxes and Charges",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_43",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_total_taxes_and_charges",
+    "label": "Total Taxes and Charges (Company Currency)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_47",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_taxes_and_charges",
+    "label": "Total Taxes and Charges",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "from_date",
+    "label": "From Date",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "auto_repeat",
+    "label": "Auto Repeat",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_140",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "to_date",
+    "label": "To Date",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "update_auto_repeat_reference",
+    "label": "Update Auto Repeat Reference",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "more_information",
+    "label": "Additional Info",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "status",
+    "label": "Status",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "inter_company_invoice_reference",
+    "label": "Inter Company Invoice Reference",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "campaign",
+    "label": "Campaign",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "represents_company",
+    "label": "Represents Company",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "source",
+    "label": "Source",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "naming_series",
+    "label": "Series",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "set_posting_time",
+    "label": "Edit Posting Date and Time",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "is_debit_note",
+    "label": "Is Rate Adjustment Entry (Debit Note)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer_group",
+    "label": "Customer Group",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "col_break23",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "is_internal_customer",
+    "label": "Is Internal Customer",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "is_discounted",
+    "label": "Is Discounted",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "remarks",
+    "label": "Remarks",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "scan_barcode",
+    "label": "Scan Barcode",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "repost_required",
+    "label": "Repost Required",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "connections_tab",
+    "label": "Connections",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posa_coupons",
+    "label": "POS Coupons Detail",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posa_delivery_charges_rate",
+    "label": "Delivery Charges Rate",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posa_is_printed",
+    "label": "Printed",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posa_notes",
+    "label": "Additional Notes",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posa_delivery_date",
+    "label": "Delivery Date",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posa_column_break_111",
+    "label": "",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "update_billed_amount_in_delivery_note",
+    "label": "Update Billed Amount in Delivery Note",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   }
+  ],
+  "modified": "2023-11-12 10:07:25.390796",
+  "name": "Sales Invoice",
+  "route": "sales_invoice"
+ },
+ {
+  "client_script": null,
+  "docstatus": 0,
+  "doctype": "DocType Layout",
+  "document_type": "Purchase Invoice",
+  "fields": [
+   {
+    "fieldname": "title",
+    "label": "Title",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "supplier",
+    "label": "Supplier",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "supplier_name",
+    "label": "Supplier Name",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "is_paid",
+    "label": "Is Paid",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tax_id",
+    "label": "Tax Id",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company",
+    "label": "Company",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_6",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posting_date",
+    "label": "Date",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "is_return",
+    "label": "Is Return (Debit Note)",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break1",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "due_date",
+    "label": "Due Date",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "return_against",
+    "label": "Return Against Purchase Invoice",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tax_withholding_category",
+    "label": "Tax Withholding Category",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "amended_from",
+    "label": "Amended From",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "supplier_invoice_details",
+    "label": "Supplier Invoice",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "bill_no",
+    "label": "Supplier Invoice No",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_15",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "bill_date",
+    "label": "Supplier Invoice Date",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "currency_and_price_list",
+    "label": "Currency and Price List",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "currency",
+    "label": "Currency",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "conversion_rate",
+    "label": "Exchange Rate",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break2",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "buying_price_list",
+    "label": "Price List",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "price_list_currency",
+    "label": "Price List Currency",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "plc_conversion_rate",
+    "label": "Price List Exchange Rate",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "ignore_pricing_rule",
+    "label": "Ignore Pricing Rule",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sec_warehouse",
+    "label": "Items",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "col_break_warehouse",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "update_stock",
+    "label": "Update Stock",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "set_warehouse",
+    "label": "Set Accepted Warehouse",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "set_from_warehouse",
+    "label": "Set From Warehouse",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "supplier_warehouse",
+    "label": "Supplier Warehouse",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "items_section",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "items",
+    "label": "Items",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_26",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_qty",
+    "label": "Total Quantity",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_net_weight",
+    "label": "Total Net Weight",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_50",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_total",
+    "label": "Total (Company Currency)",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_28",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total",
+    "label": "Total",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "discount_amount",
+    "label": "Additional Discount Amount",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "grand_total",
+    "label": "Grand Total",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_grand_total",
+    "label": "Grand Total (Company Currency)",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "payments_tab",
+    "label": "Payments",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "payments_section",
+    "label": "Payments",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "mode_of_payment",
+    "label": "Mode of Payment",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_paid_amount",
+    "label": "Paid Amount (Company Currency)",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "clearance_date",
+    "label": "Clearance Date",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "col_br_payments",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "cash_bank_account",
+    "label": "Cash/Bank Account",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "paid_amount",
+    "label": "Paid Amount",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "advances_section",
+    "label": "Advance Payments",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "allocate_advances_automatically",
+    "label": "Set Advances and Allocate (FIFO)",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "only_include_allocated_payments",
+    "label": "Only Include Allocated Payments",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "get_advances",
+    "label": "Get Advances Paid",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "advances",
+    "label": "Advances",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "advance_tax",
+    "label": "Advance Tax",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "write_off",
+    "label": "Write Off",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "write_off_amount",
+    "label": "Write Off Amount",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_write_off_amount",
+    "label": "Write Off Amount (Company Currency)",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_61",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "write_off_account",
+    "label": "Write Off Account",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "write_off_cost_center",
+    "label": "Write Off Cost Center",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "address_and_contact_tab",
+    "label": "Address & Contact",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_addresses",
+    "label": "Supplier Address",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "supplier_address",
+    "label": "Select Supplier Address",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "address_display",
+    "label": "Address",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "col_break_address",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_person",
+    "label": "Contact Person",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_display",
+    "label": "Contact",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_mobile",
+    "label": "Mobile No",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_email",
+    "label": "Contact Email",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company_shipping_address_section",
+    "label": "Company Shipping Address",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_address",
+    "label": "Select Shipping Address",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_126",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_address_display",
+    "label": "Shipping Address",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company_billing_address_section",
+    "label": "Company Billing Address",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "billing_address",
+    "label": "Select Billing Address",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_130",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "billing_address_display",
+    "label": "Billing Address",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "terms_tab",
+    "label": "Terms",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "payment_schedule_section",
+    "label": "Payment Terms",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "payment_terms_template",
+    "label": "Payment Terms Template",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "ignore_default_payment_terms_template",
+    "label": "Ignore Default Payment Terms Template",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "payment_schedule",
+    "label": "Payment Schedule",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "terms_section_break",
+    "label": "Terms and Conditions",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tc_name",
+    "label": "Terms",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "terms",
+    "label": "Terms and Conditions",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "more_info_tab",
+    "label": "More Info",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "status_section",
+    "label": "Status",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "status",
+    "label": "Status",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_177",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "per_received",
+    "label": "Per Received",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "accounting_details_section",
+    "label": "Accounting Details",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "credit_to",
+    "label": "Credit To",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "party_account_currency",
+    "label": "Party Account Currency",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "is_opening",
+    "label": "Is Opening Entry",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "against_expense_account",
+    "label": "Against Expense Account",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_63",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "unrealized_profit_loss_account",
+    "label": "Unrealized Profit / Loss Account",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "subscription_section",
+    "label": "Subscription",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "auto_repeat",
+    "label": "Auto Repeat",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "update_auto_repeat_reference",
+    "label": "Update Auto Repeat Reference",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_114",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "from_date",
+    "label": "From Date",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "to_date",
+    "label": "To Date",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "printing_settings",
+    "label": "Print Settings",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "letter_head",
+    "label": "Letter Head",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "group_same_items",
+    "label": "Group same items",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_112",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "select_print_heading",
+    "label": "Print Heading",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "language",
+    "label": "Print Language",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sb_14",
+    "label": "Hold Invoice",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "on_hold",
+    "label": "Hold Invoice",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "release_date",
+    "label": "Release Date",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "cb_17",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "hold_comment",
+    "label": "Reason For Putting On Hold",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes_section",
+    "label": "Taxes and Charges",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tax_category",
+    "label": "Tax Category",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes_and_charges",
+    "label": "Purchase Taxes and Charges Template",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_58",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_rule",
+    "label": "Shipping Rule",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_49",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "incoterm",
+    "label": "Incoterm",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "named_place",
+    "label": "Named Place",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_51",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes",
+    "label": "Purchase Taxes and Charges",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "totals",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_taxes_and_charges_added",
+    "label": "Taxes and Charges Added (Company Currency)",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_taxes_and_charges_deducted",
+    "label": "Taxes and Charges Deducted (Company Currency)",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_total_taxes_and_charges",
+    "label": "Total Taxes and Charges (Company Currency)",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_40",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes_and_charges_added",
+    "label": "Taxes and Charges Added",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes_and_charges_deducted",
+    "label": "Taxes and Charges Deducted",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_taxes_and_charges",
+    "label": "Total Taxes and Charges",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "accounting_dimensions_section",
+    "label": "Accounting Dimensions ",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "cost_center",
+    "label": "Cost Center",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "dimension_col_break",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "project",
+    "label": "Project",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "rejected_warehouse",
+    "label": "Rejected Warehouse",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_net_total",
+    "label": "Net Total (Company Currency)",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "net_total",
+    "label": "Net Total",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tax_withholding_net_total",
+    "label": "Tax Withholding Net Total",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_tax_withholding_net_total",
+    "label": "Base Tax Withholding Net Total",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_49",
+    "label": "Totals",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_rounding_adjustment",
+    "label": "Rounding Adjustment (Company Currency)",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_rounded_total",
+    "label": "Rounded Total (Company Currency)",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_in_words",
+    "label": "In Words (Company Currency)",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break8",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "rounding_adjustment",
+    "label": "Rounding Adjustment",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "use_company_roundoff_cost_center",
+    "label": "Use Company Default Round Off Cost Center",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "rounded_total",
+    "label": "Rounded Total",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "in_words",
+    "label": "In Words",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_advance",
+    "label": "Total Advance",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "outstanding_amount",
+    "label": "Outstanding Amount",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "disable_rounded_total",
+    "label": "Disable Rounded Total",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_44",
+    "label": "Additional Discount",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "apply_discount_on",
+    "label": "Apply Additional Discount On",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_discount_amount",
+    "label": "Additional Discount Amount (Company Currency)",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_46",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "additional_discount_percentage",
+    "label": "Additional Discount Percentage",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tax_withheld_vouchers_section",
+    "label": "Tax Withheld Vouchers",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tax_withheld_vouchers",
+    "label": "Tax Withheld Vouchers",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sec_tax_breakup",
+    "label": "Tax Breakup",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "other_charges_calculation",
+    "label": "Taxes and Charges Calculation",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "pricing_rule_details",
+    "label": "Pricing Rules",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "pricing_rules",
+    "label": "Pricing Rule Detail",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "raw_materials_supplied",
+    "label": "Raw Materials Supplied",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "supplied_items",
+    "label": "Supplied Items",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "additional_info_section",
+    "label": "Additional Info",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "is_internal_supplier",
+    "label": "Is Internal Supplier",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "naming_series",
+    "label": "Series",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "set_posting_time",
+    "label": "Edit Posting Date and Time",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "apply_tds",
+    "label": "Apply Tax Withholding Amount",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posting_time",
+    "label": "Posting Time",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "represents_company",
+    "label": "Represents Company",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_147",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "inter_company_invoice_reference",
+    "label": "Inter Company Invoice Reference",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "is_old_subcontracting_flow",
+    "label": "Is Old Subcontracting Flow",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "remarks",
+    "label": "Remarks",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "scan_barcode",
+    "label": "Scan Barcode",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "is_subcontracted",
+    "label": "Is Subcontracted",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "connections_tab",
+    "label": "Connections",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "use_transaction_date_exchange_rate",
+    "label": "Use Transaction Date Exchange Rate",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "repost_required",
+    "label": "Repost Required",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   }
+  ],
+  "modified": "2023-10-29 11:15:30.251084",
+  "name": "Purchase Invoice",
+  "route": "purchase_invoice"
+ },
+ {
+  "client_script": null,
+  "docstatus": 0,
+  "doctype": "DocType Layout",
+  "document_type": "Purchase Order",
+  "fields": [
+   {
+    "fieldname": "supplier_section",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "title",
+    "label": "Title",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "supplier",
+    "label": "Supplier",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "supplier_name",
+    "label": "Supplier Name",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "order_confirmation_no",
+    "label": "Order Confirmation No",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "order_confirmation_date",
+    "label": "Order Confirmation Date",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "get_items_from_open_material_requests",
+    "label": "Get Items from Open Material Requests",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_7",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "transaction_date",
+    "label": "Date",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break1",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "schedule_date",
+    "label": "Required By",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company",
+    "label": "Company",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tax_withholding_category",
+    "label": "Tax Withholding Category",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "supplier_warehouse",
+    "label": "Supplier Warehouse",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "amended_from",
+    "label": "Amended From",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "currency_and_price_list",
+    "label": "Currency and Price List",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "currency",
+    "label": "Currency",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "conversion_rate",
+    "label": "Exchange Rate",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "cb_price_list",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "buying_price_list",
+    "label": "Price List",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "price_list_currency",
+    "label": "Price List Currency",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "plc_conversion_rate",
+    "label": "Price List Exchange Rate",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "ignore_pricing_rule",
+    "label": "Ignore Pricing Rule",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "before_items_section",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "set_from_warehouse",
+    "label": "Set From Warehouse",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "set_warehouse",
+    "label": "Set Target Warehouse",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "items_col_break",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "items_section",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "items",
+    "label": "Items",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sb_last_purchase",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_qty",
+    "label": "Total Quantity",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_net_weight",
+    "label": "Total Net Weight",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_40",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_total",
+    "label": "Total (Company Currency)",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_net_total",
+    "label": "Net Total (Company Currency)",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_26",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total",
+    "label": "Total",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "discount_amount",
+    "label": "Additional Discount Amount",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "grand_total",
+    "label": "Grand Total",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "address_and_contact_tab",
+    "label": "Address & Contact",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_addresses",
+    "label": "Supplier Address",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "supplier_address",
+    "label": "Supplier Address",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "address_display",
+    "label": "Supplier Address Details",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "col_break_address",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_person",
+    "label": "Supplier Contact",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_display",
+    "label": "Contact Name",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_mobile",
+    "label": "Contact Mobile No",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_email",
+    "label": "Contact Email",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_address_section",
+    "label": "Shipping Address",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_address",
+    "label": "Shipping Address",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_99",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_address_display",
+    "label": "Shipping Address Details",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company_billing_address_section",
+    "label": "Company Billing Address",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "billing_address",
+    "label": "Company Billing Address",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_103",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "billing_address_display",
+    "label": "Billing Address Details",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "drop_ship",
+    "label": "Drop Ship",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer",
+    "label": "Customer",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer_name",
+    "label": "Customer Name",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_19",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer_contact_person",
+    "label": "Customer Contact",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer_contact_display",
+    "label": "Customer Contact",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer_contact_mobile",
+    "label": "Customer Mobile No",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer_contact_email",
+    "label": "Customer Contact Email",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "terms_tab",
+    "label": "Terms",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "payment_schedule_section",
+    "label": "Payment Terms",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "payment_terms_template",
+    "label": "Payment Terms Template",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "payment_schedule",
+    "label": "Payment Schedule",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "terms_section_break",
+    "label": "Terms & Conditions",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tc_name",
+    "label": "Terms",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "terms",
+    "label": "Terms and Conditions",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "more_info_tab",
+    "label": "More Info",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tracking_section",
+    "label": "Order Status",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "status",
+    "label": "Status",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_75",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "per_billed",
+    "label": "% Billed",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "per_received",
+    "label": "% Received",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break5",
+    "label": "Printing Settings",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "letter_head",
+    "label": "Letter Head",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "group_same_items",
+    "label": "Group same items",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_86",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "select_print_heading",
+    "label": "Print Heading",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "language",
+    "label": "Print Language",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "subscription_section",
+    "label": "Auto Repeat",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "from_date",
+    "label": "From Date",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "to_date",
+    "label": "To Date",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_97",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "auto_repeat",
+    "label": "Auto Repeat",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "update_auto_repeat_reference",
+    "label": "Update Auto Repeat Reference",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "accounting_dimensions_section",
+    "label": "Accounting Dimensions ",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "cost_center",
+    "label": "Cost Center",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "dimension_col_break",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "project",
+    "label": "Project",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tax_withholding_net_total",
+    "label": "Tax Withholding Net Total",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_tax_withholding_net_total",
+    "label": "Base Tax Withholding Net Total",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_48",
+    "label": "Pricing Rules",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "pricing_rules",
+    "label": "Purchase Order Pricing Rule",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "raw_material_details",
+    "label": "Raw Materials Supplied",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "set_reserve_warehouse",
+    "label": "Set Reserve Warehouse",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "supplied_items",
+    "label": "Supplied Items",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "totals_section",
+    "label": "Totals",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "net_total",
+    "label": "Net Total",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_grand_total",
+    "label": "Grand Total (Company Currency)",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_rounding_adjustment",
+    "label": "Rounding Adjustment (Company Currency)",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_in_words",
+    "label": "In Words (Company Currency)",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_rounded_total",
+    "label": "Rounded Total (Company Currency)",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break4",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "rounding_adjustment",
+    "label": "Rounding Adjustment",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "rounded_total",
+    "label": "Rounded Total",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "disable_rounded_total",
+    "label": "Disable Rounded Total",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "in_words",
+    "label": "In Words",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "advance_paid",
+    "label": "Advance Paid",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "discount_section",
+    "label": "Additional Discount",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "apply_discount_on",
+    "label": "Apply Additional Discount On",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_discount_amount",
+    "label": "Additional Discount Amount (Company Currency)",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_45",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "additional_discount_percentage",
+    "label": "Additional Discount Percentage",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sec_tax_breakup",
+    "label": "Tax Breakup",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "other_charges_calculation",
+    "label": "Taxes and Charges Calculation",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes_section",
+    "label": "Taxes and Charges",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tax_category",
+    "label": "Tax Category",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes_and_charges",
+    "label": "Purchase Taxes and Charges Template",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_53",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_rule",
+    "label": "Shipping Rule",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_50",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "incoterm",
+    "label": "Incoterm",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "named_place",
+    "label": "Named Place",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_52",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes",
+    "label": "Purchase Taxes and Charges",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "totals",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_taxes_and_charges_added",
+    "label": "Taxes and Charges Added (Company Currency)",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_taxes_and_charges_deducted",
+    "label": "Taxes and Charges Deducted (Company Currency)",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_total_taxes_and_charges",
+    "label": "Total Taxes and Charges (Company Currency)",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_39",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes_and_charges_added",
+    "label": "Taxes and Charges Added",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes_and_charges_deducted",
+    "label": "Taxes and Charges Deducted",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_taxes_and_charges",
+    "label": "Total Taxes and Charges",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "additional_info_section",
+    "label": "Additional Info",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "is_internal_supplier",
+    "label": "Is Internal Supplier",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "scan_barcode",
+    "label": "Scan Barcode",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "naming_series",
+    "label": "Series",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "apply_tds",
+    "label": "Apply Tax Withholding Amount",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "is_subcontracted",
+    "label": "Is Subcontracted",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "represents_company",
+    "label": "Represents Company",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "ref_sq",
+    "label": "Supplier Quotation",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_74",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "party_account_currency",
+    "label": "Party Account Currency",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "inter_company_order_reference",
+    "label": "Inter Company Order Reference",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "is_old_subcontracting_flow",
+    "label": "Is Old Subcontracting Flow",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "connections_tab",
+    "label": "Connections",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   }
+  ],
+  "modified": "2023-09-26 15:42:36.520017",
+  "name": "Purchase Order",
+  "route": "purchase_order"
+ }
+]

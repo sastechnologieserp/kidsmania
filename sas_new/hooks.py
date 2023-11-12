@@ -215,3 +215,64 @@ app_license = "MIT"
 # auth_hooks = [
 #	"sas_new.auth.validate"
 # ]
+
+doctype_js = {
+    "Sales Invoice": "public/js/sales_vo.js",
+    "Delivery Note": "public/js/delivery_note.js",
+    }
+
+fixtures=[
+    {
+    	"doctype": "DocType Layout",
+        "filters": [
+            [
+                "name",
+                "in",
+                [ 
+                    "Delivery Note",
+                    "Purchase Order",
+                    "Quotation",
+                    "Purchase Invoice",
+                    "Sales Invoice"
+                 ]
+            ]
+        ]
+    },
+    {
+    	"doctype": "Custom Field",
+        "filters": [
+            [
+                "name",
+                "in",
+                [ 
+                    "Sales Invoice-home",
+                    "Sales Invoice-street",
+                    "Sales Invoice-block",
+                    "Purchase Invoice Item-stock_q",
+                    "Delivery Note-street",
+                    "Delivery Note-block",
+                    "Delivery Note-home",
+                    "Sales Invoice-custom_lpo_and_reference_no",
+                    "Delivery Note-custom_lpo_and_reference_no",
+                    "Delivery Note-lpo_and_reference_no",
+                    "Sales Invoice-custom_image_view",
+                    "Sales Invoice-custom_item_image",
+                    "Delivery Note-custom_image_view",
+                    "Delivery Note-custom_item_image"
+                 ]
+            ]
+        ]
+    },
+    {
+    	"doctype": "Property Setter",
+        "filters": [
+            [
+                "name",
+                "in",
+                [ 
+                    "Sales Invoice-set_posting_time-default"
+                 ]
+            ]
+        ]
+    }
+]
