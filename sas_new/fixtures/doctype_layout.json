@@ -2156,13 +2156,6 @@
     "parenttype": "DocType Layout"
    },
    {
-    "fieldname": "pos_profile",
-    "label": "POS Profile",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
     "fieldname": "posting_time",
     "label": "Posting Time",
     "parent": "Sales Invoice",
@@ -2198,8 +2191,99 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "payments_section",
+    "label": "Payments",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "cash_bank_account",
+    "label": "Cash/Bank Account",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "payments",
+    "label": "Sales Invoice Payment",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_84",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_paid_amount",
+    "label": "Paid Amount (Company Currency)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_86",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "paid_amount",
+    "label": "Paid Amount",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_88",
+    "label": "Changes",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_change_amount",
+    "label": "Base Change Amount (Company Currency)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_90",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "change_amount",
+    "label": "Change Amount",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "account_for_change_amount",
+    "label": "Account for Change Amount",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "items_section",
     "label": "Items",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "scan_barcode",
+    "label": "Scan Barcode",
     "parent": "Sales Invoice",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -2338,6 +2422,104 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "taxes_section",
+    "label": "Taxes and Charges",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tax_category",
+    "label": "Tax Category",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes_and_charges",
+    "label": "Sales Taxes and Charges Template",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_38",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_rule",
+    "label": "Shipping Rule",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_55",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "incoterm",
+    "label": "Incoterm",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "named_place",
+    "label": "Named Place",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_40",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes",
+    "label": "Sales Taxes and Charges",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_43",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_total_taxes_and_charges",
+    "label": "Total Taxes and Charges (Company Currency)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_47",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_taxes_and_charges",
+    "label": "Total Taxes and Charges",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "total_billing_hours",
     "label": "Total Billing Hours",
     "parent": "Sales Invoice",
@@ -2361,90 +2543,6 @@
    {
     "fieldname": "payments_tab",
     "label": "Payments",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "payments_section",
-    "label": "Payments",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "cash_bank_account",
-    "label": "Cash/Bank Account",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "payments",
-    "label": "Sales Invoice Payment",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "section_break_84",
-    "label": null,
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_paid_amount",
-    "label": "Paid Amount (Company Currency)",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "column_break_86",
-    "label": null,
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "paid_amount",
-    "label": "Paid Amount",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "section_break_88",
-    "label": "Changes",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_change_amount",
-    "label": "Base Change Amount (Company Currency)",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "column_break_90",
-    "label": null,
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "change_amount",
-    "label": "Change Amount",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "account_for_change_amount",
-    "label": "Account for Change Amount",
     "parent": "Sales Invoice",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -3290,104 +3388,6 @@
     "parenttype": "DocType Layout"
    },
    {
-    "fieldname": "taxes_section",
-    "label": "Taxes and Charges",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "tax_category",
-    "label": "Tax Category",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "taxes_and_charges",
-    "label": "Sales Taxes and Charges Template",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "column_break_38",
-    "label": null,
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "shipping_rule",
-    "label": "Shipping Rule",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "column_break_55",
-    "label": null,
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "incoterm",
-    "label": "Incoterm",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "named_place",
-    "label": "Named Place",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "section_break_40",
-    "label": null,
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "taxes",
-    "label": "Sales Taxes and Charges",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "section_break_43",
-    "label": null,
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_total_taxes_and_charges",
-    "label": "Total Taxes and Charges (Company Currency)",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "column_break_47",
-    "label": null,
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "total_taxes_and_charges",
-    "label": "Total Taxes and Charges",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
     "fieldname": "from_date",
     "label": "From Date",
     "parent": "Sales Invoice",
@@ -3432,6 +3432,13 @@
    {
     "fieldname": "status",
     "label": "Status",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "pos_profile",
+    "label": "POS Profile",
     "parent": "Sales Invoice",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -3521,13 +3528,6 @@
     "parenttype": "DocType Layout"
    },
    {
-    "fieldname": "scan_barcode",
-    "label": "Scan Barcode",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
     "fieldname": "repost_required",
     "label": "Repost Required",
     "parent": "Sales Invoice",
@@ -3584,7 +3584,7 @@
     "parenttype": "DocType Layout"
    }
   ],
-  "modified": "2023-11-12 12:36:55.906056",
+  "modified": "2023-11-28 10:05:53.531304",
   "name": "Sales Invoice",
   "route": "sales_invoice"
  },
