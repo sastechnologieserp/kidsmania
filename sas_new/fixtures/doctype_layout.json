@@ -2065,13 +2065,6 @@
     "parenttype": "DocType Layout"
    },
    {
-    "fieldname": "block",
-    "label": "BLOCK",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
     "fieldname": "tax_id",
     "label": "Tax Id",
     "parent": "Sales Invoice",
@@ -2107,13 +2100,6 @@
     "parenttype": "DocType Layout"
    },
    {
-    "fieldname": "street",
-    "label": "STREET",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
     "fieldname": "is_return",
     "label": "Is Return (Credit Note)",
     "parent": "Sales Invoice",
@@ -2128,15 +2114,8 @@
     "parenttype": "DocType Layout"
    },
    {
-    "fieldname": "custom_lpo_and_reference_no",
-    "label": "LPO AND REFERENCE NO",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "home",
-    "label": "HOME",
+    "fieldname": "posting_time",
+    "label": "Posting Time",
     "parent": "Sales Invoice",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -2151,13 +2130,6 @@
    {
     "fieldname": "is_pos",
     "label": "Include Payment (POS)",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "posting_time",
-    "label": "Posting Time",
     "parent": "Sales Invoice",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -2317,6 +2289,13 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "custom_profit_rate",
+    "label": "Margin Check",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "section_break_42",
     "label": null,
     "parent": "Sales Invoice",
@@ -2389,6 +2368,13 @@
    {
     "fieldname": "column_break_52",
     "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "custom_price_list",
+    "label": "Price List",
     "parent": "Sales Invoice",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -2536,6 +2522,20 @@
    {
     "fieldname": "total_billing_amount",
     "label": "Total Billing Amount",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "custom_profit",
+    "label": "Profit",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "custom_profit_amount",
+    "label": "Profit Amount",
     "parent": "Sales Invoice",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -3577,14 +3577,35 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "custom_warehouse_qty",
+    "label": "Warehouse QTY",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "posa_column_break_111",
     "label": "",
     "parent": "Sales Invoice",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "custom_profit_discount",
+    "label": "Profit Discount",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "custom_column_break_ja6ox",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
    }
   ],
-  "modified": "2023-11-28 10:05:53.531304",
+  "modified": "2024-01-07 05:16:31.537911",
   "name": "Sales Invoice",
   "route": "sales_invoice"
  },

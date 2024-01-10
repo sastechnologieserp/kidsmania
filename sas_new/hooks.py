@@ -219,6 +219,7 @@ app_license = "MIT"
 doctype_js = {
     "Sales Invoice": "public/js/sales_vo.js",
     "Delivery Note": "public/js/delivery_note.js",
+    "Item": "public/js/item_vo.js",
     }
 
 fixtures=[
