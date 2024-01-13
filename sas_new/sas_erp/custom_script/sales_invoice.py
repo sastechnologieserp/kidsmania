@@ -132,6 +132,18 @@ def fetch_item_codes(purchase_invoice):
         
     return items_data
 
+@frappe.whitelist()
+def avl_qty(item_code):
+    results = None  # Initialize results to None
+    entries = frappe.get_all(
+        'Stock Ledger Entry',
+        filters={'item_code': item_code, 'is_cancelled': 0},
+        fields=['qty_after_transaction'],
+        order_by='posting_date DESC, posting_time DESC, creation DESC',
+        limit=1  # Limit to one record, which is the latest
+    )
 
+    if entries:
+        results = entries[0].get('qty_after_transaction')
 
-
+    return results
