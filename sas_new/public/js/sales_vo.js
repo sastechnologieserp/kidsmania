@@ -433,6 +433,7 @@ frappe.ui.form.on('Sales Invoice', {
                     label: __('Cost Center'),
                     fieldname: 'cost_center',
                     fieldtype: 'Link',
+                    default: 'Main - KM',
                     options: 'Cost Center',
                     reqd: 1,
                     get_query: function(doc, cdt, cdn) {
