@@ -1,71 +1,19 @@
+# Copyright (c) 2024, rawas@sastechnologies.co and contributors
+# For license information, please see license.txt
+
 import frappe
+from frappe import _
+from frappe.model.document import Document
 
-# @frappe.whitelist()
-# def last_price(customer):
-#     results = {}
-#     query = []
-#     query = frappe.get_all('Sales Invoice',filters={"customer": f'{customer}', "docstatus": '1'},fields=['name'], order_by='name asc',as_list=True)
-#     for q in query:
-#         q = q[0]
-#         exst = frappe.db.exists('Sales Invoice', {"customer": f'{customer}', "docstatus": '1', "name": f'{q}'})
-#         if exst:
-#             qq = frappe.get_doc('Sales Invoice',{"customer": f'{customer}', "docstatus": '1', "name": f'{q}'})
-#             if qq:
-#                 for it in qq.items:
-#                     results[f'{it.item_code}'] = it.rate
-    
-#     return results
 
-# @frappe.whitelist()
-# def stock_qty(item_code):
-#     results = False
-#     # query = []
-#     # query = frappe.get_all('Item',fields=['item_code'], order_by='name asc',as_list=True)
-#     # for q in query:
-#     #     q = q[0]
-#     exst = frappe.db.exists('Stock Ledger Entry', {'item_code': f'{item_code}'})
-#     if exst:
-#         ldt = frappe.get_last_doc('Stock Ledger Entry', {'item_code': f'{item_code}'}) 
-#         results = ldt.qty_after_transaction
-#     return results
+class ItemPriceChecker(Document):
+	pass
 
-# @frappe.whitelist()
-# def last_buying(item_code):
-#     results = False
-#     exst = frappe.db.exists('Item Price', {"item_code": f'{item_code}', "buying": 1})
-#     if exst:
-#         item_price = frappe.get_last_doc('Item Price', {"item_code": f'{item_code}', "buying": 1})
-#         results = item_price.price_list_rate
-#     return results
-
-# @frappe.whitelist()
-# def stock_qty_1(item_code):
-#     results = None  # Initialize results to None
-#     entries = frappe.get_all(
-#         'Stock Ledger Entry',
-#         filters={'item_code': item_code},
-#         fields=['qty_after_transaction'],
-#         order_by='posting_date DESC, posting_time DESC',
-#         limit=1  # Limit to one record, which is the latest
-#     )
-
-#     if entries:
-#         results = entries[0].get('qty_after_transaction')
-
-#     return results
-
-@frappe.whitelist()
-def get_image(item_code):
-    item = frappe.get_doc('Item', item_code)
-    return {
-        'item_image': item.get('image'),
-    }
 
 @frappe.whitelist()
 def update_item_image(item_code):
     item = frappe.get_doc('Item', item_code)
     return item.image
-
 
 @frappe.whitelist()
 def price_list(item_code):
@@ -90,6 +38,12 @@ def price_list(item_code):
     if exst_4:
         item_price_4 = frappe.get_last_doc('Item Price', {'item_code': item_code, 'price_list': 'Special Price'})
         results['selling_price_4'] = item_price_4.price_list_rate
+
+    exst_5 = frappe.db.exists('Stock Ledger Entry',{'item_code': item_code, 'is_cancelled': 0})
+    if exst_5:
+        item_price_5 = frappe.get_last_doc('Stock Ledger Entry',{'item_code': item_code, 'is_cancelled': 0})
+        results['selling_price_5'] = item_price_5.valuation_rate
+
 
     # exst_5 = frappe.db.exists('Item Price', {'item_code': item_code, 'price_list': 'Customer Last Price', 'customer': customer})
     # if exst_5:
@@ -121,39 +75,23 @@ def avail_qty(item_code):
     return results
 # /////////////////////////////////////WHAREHOUSE TABLE QTY IN SALES INVOICE/////////////////////////////////////////
 
-# @frappe.whitelist()
-# def get_valuation_rate(item_code, warehouse):
-#     valuation_rate = frappe.db.get_value('Stock Ledger Entry',
-#                                          {'item_code': item_code, 'warehouse': warehouse},
-#                                          'valuation_rate', order_by='posting_date DESC')
-
-#     return valuation_rate
+@frappe.whitelist()
+def item_barcode(item_barcode):
+    parent_item = frappe.db.get_value("Item Barcode", {"barcode": item_barcode}, "parent")
+    return parent_item
 
 @frappe.whitelist()
-def fetch_item_codes(purchase_invoice):
-    items_data = []
-    pi_doc = frappe.get_doc('Purchase Invoice', purchase_invoice)
-    
-    for item in pi_doc.items:
-        items_data.append({
-            'item_code': item.item_code,
-            'item_name': item.item_name 
-        })
-        
-    return items_data
-
-@frappe.whitelist()
-def avl_qty(item_code):
+def valuation_rate(item_code):
     results = None  # Initialize results to None
     entries = frappe.get_all(
         'Stock Ledger Entry',
         filters={'item_code': item_code, 'is_cancelled': 0},
-        fields=['qty_after_transaction'],
+        fields=['valuation_rate'],
         order_by='posting_date DESC, posting_time DESC, creation DESC',
         limit=1  # Limit to one record, which is the latest
     )
 
     if entries:
-        results = entries[0].get('qty_after_transaction')
+        results = entries[0].get('valuation_rate')
 
     return results

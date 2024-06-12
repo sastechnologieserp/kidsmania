@@ -383,6 +383,7 @@ frappe.ui.form.on('Sales Invoice Item', {
                     frappe.model.set_value(last_row.doctype, last_row.name, 'price_2', r.message.selling_price_2);
                     frappe.model.set_value(last_row.doctype, last_row.name, 'price_3', r.message.selling_price_3);
                     frappe.model.set_value(last_row.doctype, last_row.name, 'price_4', r.message.selling_price_4);
+                    // frappe.model.set_value(last_row.doctype, last_row.name, 'price_5', r.message.selling_price_5);
 
                     frm.refresh_field('custom_price_list');
                 }
@@ -394,33 +395,34 @@ frappe.ui.form.on('Sales Invoice Item', {
 
 /////////////////////////////////WHAREHOUSE TABLE QTY IN SALES INVOICE////////////////////////////////////
 
-// frappe.ui.form.on('Sales Invoice Item', {
-//     item_code: function(frm, cdt, cdn) {
-//         var child = locals[cdt][cdn];
-//         var item_code = child.item_code;
+frappe.ui.form.on('Sales Invoice Item', {
+    item_code: function(frm, cdt, cdn) {
+        var child = locals[cdt][cdn];
+        var item_code = child.item_code;
 
-//         frappe.call({
-//             method: 'sas_new.sas_erp.custom_script.sales_invoice.avail_qty',
-//             args: {
-//                 item_code: item_code
-//             },
-//             callback: function(r) {
-//                 if (r.message) {
-//                     if (!frm.doc.custom_warehouse_qty) {
-//                         frm.add_child('custom_warehouse_qty', {});
-//                     }
+        frappe.call({
+            method: 'sas_new.sas_erp.custom_script.sales_invoice.avail_qty',
+            args: {
+                item_code: item_code
+            },
+            callback: function(r) {
+                if (r.message) {
+                    if (!frm.doc.custom_warehouse_qty) {
+                        frm.add_child('custom_warehouse_qty', {});
+                    }
 
-//                     var last_row = frm.doc.custom_warehouse_qty[frm.doc.custom_warehouse_qty.length - 1];
+                    var last_row = frm.doc.custom_warehouse_qty[frm.doc.custom_warehouse_qty.length - 1];
 
-//                     frappe.model.set_value(last_row.doctype, last_row.name, 'warehouse1', r.message.warehouse_1);
-//                     frappe.model.set_value(last_row.doctype, last_row.name, 'warehouse2', r.message.warehouse_2);
+                    frappe.model.set_value(last_row.doctype, last_row.name, 'warehouse1', r.message.warehouse_1);
+                    frappe.model.set_value(last_row.doctype, last_row.name, 'warehouse2', r.message.warehouse_2);
+                    frappe.model.set_value(last_row.doctype, last_row.name, 'custom_warehouse3', r.message.warehouse_3);
 
-//                     frm.refresh_field('custom_warehouse_qty');
-//                 }
-//             }
-//         });
-//     }
-// });
+                    frm.refresh_field('custom_warehouse_qty');
+                }
+            }
+        });
+    }
+});
 
 /////////////////////////////////WHAREHOUSE TABLE QTY IN SALES INVOICE////////////////////////////////////
 
@@ -433,7 +435,7 @@ frappe.ui.form.on('Sales Invoice', {
                     label: __('Cost Center'),
                     fieldname: 'cost_center',
                     fieldtype: 'Link',
-                    default: 'Main - KM',
+                    // default: 'Main - KM',
                     options: 'Cost Center',
                     reqd: 1,
                     get_query: function(doc, cdt, cdn) {
