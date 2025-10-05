@@ -220,6 +220,7 @@ doctype_js = {
     "Sales Invoice": "public/js/sales_vo.js",
     "Delivery Note": "public/js/delivery_note.js",
     "Item": "public/js/item_vo.js",
+	"Purchase Invoice": "public/js/purchase_invoice.js"
     }
 
 fixtures=[
